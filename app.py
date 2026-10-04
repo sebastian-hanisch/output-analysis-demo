@@ -250,7 +250,7 @@ st.markdown(
 """
 )
 st.caption(
-    "Verwandt im Portfolio: [mm1-queue-demo](https://sebastianhanisch-mm1-queue-demo.streamlit.app/) (Stück 1: Streuung eines "
+    "Verwandt im Portfolio: [markov-queue-demo](https://sebastianhanisch-markov-queue-demo.streamlit.app/) (Zusatzstück: die Einschwingzeit, die hier aus Läufen geschätzt wird, ergibt sich dort exakt aus der Kette), [mm1-queue-demo](https://sebastianhanisch-mm1-queue-demo.streamlit.app/) (Stück 1: Streuung eines "
     "Laufs und Startverzerrung), [forecast-interval-demo](https://sebastianhanisch-forecast-interval-demo.streamlit.app/) "
     "(prüft ebenfalls, ob Intervalle ihre Nennabdeckung halten, dort für Prognosen)."
 )

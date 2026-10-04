@@ -91,6 +91,7 @@ Abdeckung beträgt dabei höchstens 2.5 Prozentpunkte.
 
 ## Verwandte Demos im Portfolio
 
+- [`markov-queue-demo`](https://github.com/sebastian-hanisch/markov-queue-demo) (Zusatzstück: die Einschwingzeit, die hier aus Läufen geschätzt wird, ergibt sich dort exakt aus der Kette).
 - [`mm1-queue-demo`](https://github.com/sebastian-hanisch/mm1-queue-demo): Stück 1 der Linie, Streuung eines Laufs und
   Startverzerrung, aus denen diese Demo die Frage nach dem Intervall gewinnt.
 - [`forecast-interval-demo`](https://github.com/sebastian-hanisch/forecast-interval-demo): prüft ebenfalls, ob
