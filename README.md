@@ -1,5 +1,7 @@
 # Output Analysis – wie viel Vertrauen verdient eine Simulation? (Streamlit-Demo)
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-output-analysis-demo.streamlit.app/)**
+
 Interaktive Demo zur **Auswertung von Simulationsläufen** am M/M/1-Gate aus
 [mm1-queue-demo](https://github.com/sebastian-hanisch/mm1-queue-demo). **Zweites Stück der Konzepte-Linie
 „Warteschlangentheorie und Simulation“** im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net)
