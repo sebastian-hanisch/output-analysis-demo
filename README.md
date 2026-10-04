@@ -103,7 +103,7 @@ Jede dieser Annahmen hebt ein Folgestück der Linie auf:
 | Annahme | Folgestück |
 |---|---|
 | Es gibt einen Gleichgewichtswert | [Zeitvariable Ankünfte](https://github.com/sebastian-hanisch/time-varying-arrivals-demo) |
-| Der Mittelwert ist die Kennzahl | Seltene Ereignisse (Splitting) |
+| Der Mittelwert ist die Kennzahl | [Seltene Ereignisse (Splitting)](https://github.com/sebastian-hanisch/splitting-demo) |
 | Ein Gate mit bekannter Formel | M/G/1 (Kingman-Näherung), Jackson-Netze |
 
 Kein Folgestück: Bootstrap-Intervalle, Verfahren mit automatischer Batch-Länge oder Abbruch bei Zielgenauigkeit,

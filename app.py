@@ -243,7 +243,7 @@ st.markdown(
 | Annahme | Was passiert, wenn sie verletzt ist | Wer setzt an |
 |---|---|---|
 | **Es gibt einen Gleichgewichtswert** | Bei zeitveränderlicher Ankunftsrate (Morgenspitze) gibt es keinen stationären Mittelwert; Batch Means und Warm-up schätzen dann nichts Sinnvolles. | **[Zeitvariable Ankünfte](https://sebastianhanisch-time-varying-arrivals-demo.streamlit.app/)** |
-| **Der Mittelwert ist die Kennzahl** | Bei seltenen Ereignissen (Überlauf, Verlust) sieht fast kein Lauf das Ereignis, ein Intervall um 0 sagt nichts. | **Seltene Ereignisse (Splitting)** (Folgestück) |
+| **Der Mittelwert ist die Kennzahl** | Bei seltenen Ereignissen (Überlauf, Verlust) sieht fast kein Lauf das Ereignis, ein Intervall um 0 sagt nichts. | **[Seltene Ereignisse (Splitting)](https://sebastianhanisch-splitting-demo.streamlit.app/)** |
 | **Ein Gate mit bekannter Formel** | Hier lässt sich jeder Befund prüfen, und der Start im Gleichgewicht ist möglich. Bei beliebiger Bedienzeit und in Netzen fehlt die Formel meist, dort sind Intervalle die einzige Auskunft. | **M/G/1, Kingman-Näherung** und **Jackson-Netze** (Folgestücke) |
 | **Batches länger als die „Erinnerung“ des Systems** | Bei hoher Auslastung ist die Erinnerung lang: viele kurze Batches sind noch verwandt, die Intervalle zu schmal (die Abdeckung sinkt mit der Batch-Zahl, Abbildung oben). | kein Folgestück; Verfahren mit automatischer Batch-Länge und Abbruch bei Zielgenauigkeit nicht umgesetzt |
 | **Gemeinsame Zufallszahlen helfen** | Der Gewinn hängt stark von der Auslastung ab (Abbildung oben) und setzt voraus, dass beide Systeme dieselben Zufallsereignisse sehen. | kein Folgestück |
