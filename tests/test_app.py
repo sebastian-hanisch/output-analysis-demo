@@ -1,5 +1,6 @@
 """AppTest-Rauchtests: Voreinstellung, jedes Preset, Randwerte, Würfel-Knopf, Permalink-Grenzen, Abschnitte, Footer."""
 
+import random
 from pathlib import Path
 
 import pytest
@@ -54,11 +55,15 @@ def test_extreme_settings_run(kw):
     _ok(_run(**kw))
 
 
-def test_dice_button_changes_the_seed_and_the_result():
+def test_dice_button_changes_the_seed_and_the_result(monkeypatch):
+    """Der Würfel zieht sonst einen unseeded Zufalls-Seed; bei gerundeten Kennzahlen kollidiert ein Zufallsseed manchmal mit dem
+    Standard-Seed (gemessen: 40 Würfe, bis zu 9 gleiche Anzeigen), deshalb ist der gewürfelte Seed im Test fest."""
+    monkeypatch.setattr(random, "randint", lambda a, b: 508145)
     at = _run()
     old_seed, old = at.session_state["seed_input"], _metric(at, "naiv").value
     next(b for b in at.button if b.label == "🎲 Neuen Lauf würfeln").click().run()
     _ok(at)
+    assert at.session_state["seed_input"] == 508145            # der feste Seed ist wirklich verwendet worden
     assert at.session_state["seed_input"] != old_seed and _metric(at, "naiv").value != old
 
 
