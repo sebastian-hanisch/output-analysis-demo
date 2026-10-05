@@ -112,7 +112,7 @@ andere Kopplungen für gemeinsame Zufallszahlen.
 
 ## Tests
 
-134 Tests, rund 15 s: t-Quantile gegen scipy, Intervalle, Batch-Mittel, MSER-5 (künstliches Einschwingen, konstante Reihe,
+138 Tests, rund 30 s: t-Quantile gegen scipy, Intervalle, Batch-Mittel, MSER-5 (künstliches Einschwingen, konstante Reihe,
 Handrechnung), Welch-Mittelung und Autokorrelation von Hand, Generator gegen die Referenzfolge, Lindley-Rekursion an einer
 Drei-Lkw-Instanz, stationärer Start, Gleichlauf der Ströme bei gemeinsamen Zufallszahlen (das schnellere System wartet nie
 länger, Lkw für Lkw), kleine Abdeckungsstudien, Vollständigkeit der vorgerechneten Datei, Presets/Permalink,
