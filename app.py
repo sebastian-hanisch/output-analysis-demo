@@ -153,7 +153,7 @@ with col_b:
                    f"(über {pre['grid_reps']} Läufe, nächste gemessene Auslastung).")
     st.caption(
         f"Direkt benachbarte Lkw haben eine Autokorrelation von {report['acf'][0]:.2f}. Das naive Intervall tut so, als "
-        f"hätte der Lauf {C.fmt_int(n)} unabhängige Beobachtungen; tatsächlich trägt er viel weniger Information, "
+        f"hätte der Lauf {C.fmt_int(n)} unabhängige Beobachtungen; tatsächlich enthält er viel weniger Information, "
         f"weil Nachbarn fast dasselbe sagen."
     )
 
